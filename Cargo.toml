@@ -1,0 +1,11 @@
+[package]
+name = "tea-check"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow = "1.0.104"
+libtea-core = "0.1.6"
+reqwest = { version = "0.12", features = ["json"] }
+futures = "0.3"
+tokio = { version = "1.54.1", features = ["full"] }
